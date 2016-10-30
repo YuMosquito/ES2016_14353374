@@ -18,9 +18,11 @@
 ![.dot截图](http://upload-images.jianshu.io/upload_images/3239746-8de210257013ddf1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![编译结果](http://upload-images.jianshu.io/upload_images/3239746-6367fe56c7abc3a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 <p>**2.具体修改过程**：
-<p>  * 在square.c文件中定义了平方计算进程，修改为立方计算进程即可：
+<p>
+* 在square.c文件中定义了平方计算进程，修改为立方计算进程即可：
 <p> ![](http://upload-images.jianshu.io/upload_images/3239746-a1cee55339dd6fd5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-<p>  * 将模块名称由square改成cube，需要将square.c、square.h、example1.xml中的相关函数名称和进程名称改成cube：
+<p>
+* 将模块名称由square改成cube，需要将square.c、square.h、example1.xml中的相关函数名称和进程名称改成cube：
 <p>![square.c](http://upload-images.jianshu.io/upload_images/3239746-4da2fe53c581f3d2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 <p>![square.h](http://upload-images.jianshu.io/upload_images/3239746-11cb4d33246dc998.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 <p>![example1.xml](http://upload-images.jianshu.io/upload_images/3239746-a60f6cbf6155abdf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -64,4 +66,5 @@
 </connection> 
 ```
 未知数1是连接线名称;未知数2\未知数4是模块或者通道的名字;未知数3\未知数5对应 process或者channel的端口名。
-  *  实验中学习到一些linux语句的使用，因为dol文件加了锁，所以不能直接删掉之前build的example文件，使用```rm -rf 文件名```指令在终端删除文件夹；而且不能直接修改文件，所以使用```sudo gedit 文件名```指令在终端打开文件，然后修改保存。
+<p>
+   * 实验中学习到一些linux语句的使用，因为dol文件加了锁，所以不能直接删掉之前build的example文件，使用```rm -rf 文件名```指令在终端删除文件夹；而且不能直接修改文件，所以使用```sudo gedit 文件名```指令在终端打开文件，然后修改保存。
