@@ -43,19 +43,19 @@
     　　<source type=“c” location=“ 未知数 1.c"/> 
 </process> 
 ```
-　　　<p>• 未知数1:实现的模块名字
-　　　<p>• 未知数2:output(表示输出端口)或者 input(表示输入端口)
-　　　<p>• 未知数3:端口的名字，在 对应的.h 文件里面定义
-        2. sw_channel定义连接模块的通道：
+　　　<p>　　• 未知数1:实现的模块名字
+　　　<p>　　• 未知数2:output(表示输出端口)或者 input(表示输入端口)
+　　　<p>　　• 未知数3:端口的名字，在 对应的.h 文件里面定义
+       <p> 2. sw_channel定义连接模块的通道：
 ```
 <sw_channel type=“ fifo” size=“ 未知数 1” name=“ 未知数 2">
 　　<port type=“input” name=“in"/> //输入端口
 　　<port type=“output” name=“out"/> //输出端口
 </ sw_channel >
 ```
-　　　<p>• 未知数1指缓冲区的大小
-　　　<p>• 未知数2是这条通道的名字
-       3. connection定义各个模块之间的连接 ：每条通道有 2个connection连接左右模块框
+　　　<p>　　• 未知数1指缓冲区的大小
+　　　<p>　　• 未知数2是这条通道的名字
+      <p>3. connection定义各个模块之间的连接 ：每条通道有 2个connection连接左右模块框
 ```
 <connection name=“ 未知数 1">
 　　<origin name=“ 未知数 2”>//通道左边模块
@@ -66,7 +66,7 @@
 　　</target> 
 </connection> 
 ```
-　　　<p>• 未知数1是连接线名称。
-　　　<p>• 未知数2\未知数4是模块或者通道的名字
-　　　<p>• 未知数3\未知数5对应 process或者channel的端口名
+　　　<p>　　• 未知数1是连接线名称。
+　　　<p>　　• 未知数2\未知数4是模块或者通道的名字
+　　　<p>　　• 未知数3\未知数5对应 process或者channel的端口名
   *  实验中学习到一些linux语句的使用，因为dol文件加了锁，所以不能直接删掉之前build的example文件，使用```rm -rf 文件名```指令在终端删除文件夹；而且不能直接修改文件，所以使用```sudo gedit 文件名```指令在终端打开文件，然后修改保存。
