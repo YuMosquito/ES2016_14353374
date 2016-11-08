@@ -2,7 +2,7 @@
 
 ---
 ##安装
-**1.配置 Ubuntu 软件仓库 **
+**1.配置 Ubuntu 软件仓库**
 <p>配置Ubuntu 软件仓库(repositories) 以允许 "restricted"、"universe" 和 "multiverse"这三种安装模式（注：此步骤可以不执行，默认允许上诉三种安装模式）：
 * <p> 允许 "restricted"、"universe" 和 "multiverse"这三种安装模式,这里取消了main模式：
 ![](http://upload-images.jianshu.io/upload_images/3239746-2e344a3778539541.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
